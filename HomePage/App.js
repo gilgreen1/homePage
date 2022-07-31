@@ -21,8 +21,6 @@ import {
 
 import colors from './assets/colors/colors';
 import styles from './styles';
-import VideoPlayer from 'react-native-video-player';
-//import Icon from 'react-native-vector-icons/MaterialIcons';
 //import Player from './Player';
 
 const App = () => {
@@ -53,13 +51,8 @@ const App = () => {
         {/*Video*/}
         
         <View style={styles.videoView}>
-          <VideoPlayer
-            video={{ uri: 'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4' }}
-            videoWidth={1600}
-            videoHeight={900}
-            />
+          
         </View>
-
         {/*Title*/}
         <View style={styles.titleView}>
           <Text style={styles.MainTitle}>{title}</Text>

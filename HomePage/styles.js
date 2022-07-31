@@ -47,7 +47,7 @@ export default StyleSheet.create({
       fontSize: 25,
       lineHeight: 42.12,
       fontWeight: 'bold',
-      fontFamily: 'Visby CF Medium',
+      fontFamily: 'VisbyCF-ExtraBold.ttf',
     },
     avatar:{
       width: 45,
@@ -204,7 +204,6 @@ export default StyleSheet.create({
       marginHorizontal: 4,
       paddingHorizontal: 8,
     },
-
     btnGet:{
       resizeMode: 'cover',
       overflow: 'hidden',
@@ -227,13 +226,9 @@ export default StyleSheet.create({
       marginHorizontal: 4,
       paddingHorizontal: 8,
     },
-
-
     authAvatar: {
       flexDirection: 'row',
     },
-
-
     video:{
       //width: 427,
       //height: 272,
